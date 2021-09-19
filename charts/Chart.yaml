@@ -1,6 +1,6 @@
 apiVersion: v2
 description: Hyperledger Fabric Orderer chart
-name: hlf-ord
+name: helm-hlf-ord
 version: 1.0.0
 appVersion: 1.4.3
 keywords:
