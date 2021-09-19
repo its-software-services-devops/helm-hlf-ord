@@ -105,7 +105,7 @@ spec:
               - /var/hyperledger
             initialDelaySeconds: 15
           command:
-            - bash
+            - sh
             - -c
             - |
 
