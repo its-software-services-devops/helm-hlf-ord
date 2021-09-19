@@ -3,6 +3,23 @@ entries:
   helm-hlf-ord:
   - apiVersion: v2
     appVersion: 1.4.3
+    created: "2021-09-19T08:11:02.852534769Z"
+    description: Hyperledger Fabric Orderer chart
+    digest: 80e36ed5d0c3a48d9f5d033a7860f713da2f09e038fe178fe7bd06a965adc667
+    home: http://hyperledger-fabric.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    name: helm-hlf-ord
+    sources:
+    - https://github.com/its-software-services-devops/helm-hlf-ord
+    urls:
+    - https://its-software-services-devops.github.io/helm-hlf-ord/helm-hlf-ord-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v2
+    appVersion: 1.4.3
     created: "2021-09-19T08:06:21.234810799Z"
     description: Hyperledger Fabric Orderer chart
     digest: cc4ee807d08a107021eb2a85dd90d9e1b19855dba3101e78f661d0b6cb1ef5bb
@@ -18,4 +35,4 @@ entries:
     urls:
     - https://its-software-services-devops.github.io/helm-hlf-ord/helm-hlf-ord-1.1.0.tgz
     version: 1.1.0
-generated: "2021-09-19T08:06:21.233973503Z"
+generated: "2021-09-19T08:11:02.851738247Z"
