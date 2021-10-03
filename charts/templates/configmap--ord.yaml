@@ -21,7 +21,8 @@ data:
   ORDERER_GENERAL_LOCALMSPDIR: /var/hyperledger/msp
   ORDERER_GENERAL_LOCALMSPID: {{ .Values.ord.mspID | quote }}
   ORDERER_GENERAL_GENESISMETHOD: file
-  ORDERER_GENERAL_GENESISFILE: /hl_config/genesis/genesis.block
+  #ORDERER_GENERAL_GENESISFILE: /hl_config/genesis/genesis.block
+  ORDERER_GENERAL_BOOTSTRAPFILE: /hl_config/genesis/genesis.block
   ORDERER_GENERAL_GENESISPROFILE: initial
   ORDERER_GENERAL_TLS_ENABLED: {{ .Values.ord.tls.server.enabled | quote }}
   ORDERER_GENERAL_TLS_CERTIFICATE: "/var/hyperledger/tls/server/pair/tls.crt"
